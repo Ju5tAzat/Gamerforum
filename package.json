@@ -1,0 +1,14 @@
+{
+    "dependencies": {
+      "@prisma/client": "^5.4.2"
+    },
+    "devDependencies": {
+      "prisma": "^5.4.2"
+    },
+    "scripts": {
+      "db:migrate": "prisma migrate deploy",
+      "db:generate": "prisma generate",
+      "db:studio": "prisma studio"
+    }
+  }
+  
